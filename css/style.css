@@ -1,0 +1,62 @@
+.tab-buttons {
+    
+}
+.tab-buttons .tab-button {
+    border: none;
+    background: orange;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.tab-contents {
+    margin-top: 20px;
+}
+.tab-contents .tab-content {
+    width: 600px;
+    height: 150px;
+    position: absolute;
+    animation: tab-opacity 0.4s;
+}
+
+#tab1 {
+    background-color: blueviolet;
+    display: block;
+}
+#tab2 {
+    background-color: darkorange
+}
+#tab3 {
+    background-color: dodgerblue
+}
+#tab4 {
+    background-color: hotpink
+}
+
+
+@keyframes tab-opacity {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.d-none{
+    display: none;
+}
+
+
+button[data-tab-target="tab2"] {
+    background: red;
+}
+
+
+div[data-qeshem="demo"]{
+    width: 500px;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px 0;
+}
